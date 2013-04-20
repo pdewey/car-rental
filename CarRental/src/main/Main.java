@@ -1,8 +1,9 @@
 package main;
 
 import javax.swing.JFrame;
+import javax.swing.JPanel;
 
-import panels.ViewPanel;
+import panels.*;
 
 
 
@@ -11,7 +12,7 @@ public class Main {
 		JFrame frame = new JFrame("GT Car Rental System");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
-		ViewPanel panel = new ViewPanel();
+		JPanel panel = new Homepage();
 		
 		frame.getContentPane().add(panel);
 		frame.pack();
